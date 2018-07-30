@@ -1,7 +1,10 @@
 .banner-background{
     min-height: 800px;
-    background: url("../img/header-bg.jpg") no-repeat;
+    background: url("../img/header-bg-3.jpg") no-repeat;
     text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container-info{
@@ -315,7 +318,14 @@
     text-decoration: none;
     color: #e68721;
 }
+/* google-font */
+.Abril-Fatface-font{
+    font-family: 'Abril+Fatface', cursive;
+}
 
+.Concert-One-font{
+    font-family: 'Concert One', cursive;
+}
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -368,7 +378,7 @@
 @media (min-width: 768px) {
     .container-info > h1{
         font-size: 50px;
-        color: red;
+        color: rgb(0, 195, 255);
     }
 
 }
@@ -376,7 +386,7 @@
 @media (min-width: 992px) {
     .container-info > h1{
         font-size: 80px;
-        color: blueviolet;
+        color: rgb(43, 137, 226);
     }
 
 }
@@ -384,6 +394,6 @@
 @media (min-width: 1200px) {
     .container-info > h1{
         font-size: 100px;
-        color: orangered;
+        color: rgb(255, 251, 0);
     }
 }
